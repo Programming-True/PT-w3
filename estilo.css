@@ -96,3 +96,18 @@ footer{
 	width: 500px;
 }
 
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+}
+
+table#tabla-tipo1{
+	width: 100%;
+	background-color: #FFB200
+}
+
+table#tabla-tipo2{
+	width: 100%;
+	background-color: #00FF93
+}
