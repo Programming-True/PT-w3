@@ -149,3 +149,7 @@ table#tabla-tipo2{
 		.btn-red:active{
 			background-color: #A62828;
 		}
+/*Formularios*/
+formulario{
+	float: center;
+}
