@@ -1,6 +1,6 @@
 <?php
 
-$dbhost = "bnazaqudbafe8yuyljcr-mysql.services.clever-cloud.com";
+$dbhost = "bnazaqudbafe8yuyljcr-mysql.services.clever-cloud.com:3306";
 $dbuser = "u7cq07dkrxfcbyrq";
 $dbpass = "lCtSCj3tuSdxbGBQWQuM";
 $dbname = "bnazaqudbafe8yuyljcr";
