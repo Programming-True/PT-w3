@@ -1,0 +1,25 @@
+Hola, gracias por Instalar El software Escuela TMCTLM,
+Aqui tendrás informacion sobre los archivos que se generan,
+
+Para modificar el codigo, instala Visual studio 2019,
+y abre el archivo indicado en la compra o web,
+AL COMPARTIR EL ARCHIVO SETUP O EL CODIGO FUENTE,
+INFLINGES EL copyright DE TMCTLM Y PT-w3
+LA LICENCIA ES DE USO LOCAL, NO SE PUEDE COMPARTIR CON NADIE
+
+Info VB:
+
+1: Como poner usuarios:
+En el archivo, entra a "Escuela3\Escuela3.sln"
+En Visual studio, haz clic derecho en "LogIn.vb" y elige Ver codigo,
+Añade lo siguiente replazando por lo de mas abajo:
+
+        If user.Text = "_Usuario_" And pin.Text = "_PIN_" Then    'Este es el usuario User'
+            Me.Hide()
+            Escuela3.UserPanel.Show()
+        ElseIf user.Text = "_Usuario2_" And pin.Text = "_PIN2_" Then	'Este es el usuario Admin'
+            Me.Hide()
+            Escuela3.AdminPanel.Show()
+        Else
+            MsgBox("Los datos introducidos no son validos")
+        End If
